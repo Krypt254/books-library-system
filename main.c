@@ -53,7 +53,13 @@ int main(){
             printf("editing of book");
             break;
          case 5:
-            printf("deleting a book\n");
+            printf("deleting a book");
+            break;
+         case 6:
+            printf("changing password");
+            break;
+         case 7:
+            exit(1);
             break;
 
       }
